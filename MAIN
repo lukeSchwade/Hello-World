@@ -1,0 +1,31 @@
+
+package javacompsci1;
+
+/**
+ * lol what am i doing
+ * @author schwadl4738
+ */
+
+import java.io.*;
+public class JavaCompSci1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println ("hi");
+        String firstSentence = "variables must be declared first before use";
+        System.out.println(firstSentence);
+        memes1(30, ">tfw");
+    }
+    
+    
+    public static void memes1(int x, String pepe){
+        int blah = 50*x;
+        System.out.print(pepe);
+        System.out.println(" " + blah + " MEEMS");
+        System.out.println("CRASHING THIS PLANE WITH NO SURVIVORS");
+    }
+    
+}
